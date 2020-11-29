@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://akarbas.github.io/</loc>
+    <lastmod>2020-11-29T17:18:34+03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akarbas.github.io/authors/</loc>
+    <lastmod>2020-11-29T17:18:34+03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akarbas.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://akarbas.github.io/author/mohammadamin-karbasforushan/</loc>
+    <lastmod>2020-11-29T17:18:34+03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akarbas.github.io/post/</loc>
+    <lastmod>2020-11-29T14:42:52+03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akarbas.github.io/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>https://akarbas.github.io/publication/</loc>
+    <lastmod>2020-11-29T14:42:52+03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akarbas.github.io/talk/</loc>
+    <lastmod>2020-11-29T14:42:52+03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akarbas.github.io/tags/</loc>
+  </url>
+  
+</urlset>
