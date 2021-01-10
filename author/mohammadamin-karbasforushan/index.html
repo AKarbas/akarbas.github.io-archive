@@ -60,7 +60,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="#1565c0">
   
 
   
@@ -75,7 +75,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print" onload="this.media='all'">
 
     
     
@@ -221,8 +221,8 @@
   
     
       
-      
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
     
   
 
@@ -230,7 +230,8 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.min.95ca1640f2b0a11b58cfeec86d1c49d4.css">
+  
+  <link rel="stylesheet" href="/css/wowchemy.98115257da206213d96eebe4f9f2f46f.css">
 
   
 
@@ -249,7 +250,10 @@
   <link rel="alternate" href="/author/mohammadamin-karbasforushan/index.xml" type="application/rss+xml" title="Amin Karbas">
   
 
+  
   <link rel="manifest" href="/index.webmanifest">
+  
+
   <link rel="icon" type="image/png" href="/images/icon_hu1207e381c7dc6b55e46a3afd241fa73d_266090_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu1207e381c7dc6b55e46a3afd241fa73d_266090_192x192_fill_lanczos_center_2.png">
 
@@ -305,37 +309,13 @@
   
   
   
-  <script src="/js/wowchemy-init.js"></script>
+  
+  
+  
+  <script src="/js/wowchemy-init.min.7d92a95e871a711a5c03f82410d0fe5d.js"></script>
 
-  <aside class="search-results" id="search">
-  <div class="container">
-    <section class="search-header">
+  
 
-      <div class="row no-gutters justify-content-between mb-3">
-        <div class="col-6">
-          <h1>Search</h1>
-        </div>
-        <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
-        </div>
-      </div>
-
-      <div id="search-box">
-        
-        
-        
-      </div>
-
-    </section>
-    <section class="section-search-results">
-
-      <div id="search-hits">
-        
-      </div>
-
-    </section>
-  </div>
-</aside>
 
 
   <div class="page-header">
@@ -353,7 +333,7 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-  <div class="container">
+  <div class="container-xl">
 
     
     <div class="d-none d-lg-inline-flex">
@@ -477,47 +457,10 @@
             
           
           
-            
-            
-            
-              
-            
-            
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/media/AminKarbas_cv.pdf"><span>CV</span></a>
+          <a class="nav-link " href="/media/AminKarbas_cv.pdf"><span><b> CV </b></span></a>
         </li>
 
         
@@ -700,7 +643,7 @@
 
       
       <div class="col-md-5">
-        <h3>Interests</h3>
+        <div class="section-subheading">Interests</div>
         <ul class="ul-interests">
           
           <li>Distributed Computing</li>
@@ -709,7 +652,7 @@
           
           <li>Operating Systems</li>
           
-          <li>File Systems</li>
+          <li>Storage and File Systems</li>
           
           <li>Computer Networks</li>
           
@@ -721,7 +664,7 @@
 
       
       <div class="col-md-7">
-        <h3>Education</h3>
+        <div class="section-subheading">Education</div>
         <ul class="ul-edu fa-ul">
           
           <li>
@@ -757,7 +700,7 @@
   
 
   <p class="powered-by">
-    © Mohammadamin Karbasforushan 2020
+    © Mohammadamin Karbasforushan 2021
   </p>
 
   
@@ -837,8 +780,6 @@
 
     
     
-    <script>const code_highlighting = false;</script>
-    
 
     
 
@@ -846,14 +787,13 @@
     
 
     
-
     
     
 
     
     
-
     
+
     
     
 
@@ -874,9 +814,7 @@
     
     
     
-    
-    
-    <script src="/js/wowchemy.min.1521bbf8c12bfed32e2e1938f0a7fc26.js"></script>
+    <script src="/js/wowchemy.min.aa212a7a356a001b1c1ad0b3db36ab58.js"></script>
 
     
 
