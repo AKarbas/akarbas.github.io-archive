@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Amin Karbas</title>
-    <link>https://akarbas.github.io/authors/</link>
-      <atom:link href="https://akarbas.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
-    <description>Authors</description>
+    <title>Tags | Amin Karbas</title>
+    <link>https://akarbas.github.io/tags/</link>
+      <atom:link href="https://akarbas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
       <url>https://akarbas.github.io/media/icon_hu1207e381c7dc6b55e46a3afd241fa73d_266090_512x512_fill_lanczos_center_3.png</url>
-      <title>Authors</title>
-      <link>https://akarbas.github.io/authors/</link>
+      <title>Tags</title>
+      <link>https://akarbas.github.io/tags/</link>
     </image>
     
   </channel>
