@@ -1,4 +1,6 @@
-<!DOCTYPE html><html lang="en-us" >
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: December 22, 2023 --><html lang="en-us" >
 
 
 <head>
@@ -8,7 +10,7 @@
   
   
   
-    <meta name="generator" content="Wowchemy 5.6.0 for Hugo" />
+    <meta name="generator" content="Wowchemy 5.9.0 for Hugo" />
   
 
   
@@ -62,28 +64,6 @@
 
   
   
-  
-  
-  
-  
-
-  
-
-  
-  
-  
-    
-  
-  <meta name="description" content="We focus on the problem of Dynamic Searchable Encryption (DSE) with efficient (optimal/quasi-optimal) search in the presence of deletions. Towards that end, we first propose OSSE, the first DSE scheme that can achieve asymptotically optimal search time, linear to the result size and independent of any prior deletions, improving the previous state of the art by a multiplicative logarithmic factor. We then propose our second scheme LLSE, that achieves a sublogarithmic search overhead (loglogi_w, where i_w is the number or prior insertions for a keyword) compared to the optimal achieved by OSSE. While this is slightly worse than our first scheme, it still outperforms prior works, while also achieving faster deletions and asymptotically smaller server storage. Both schemes have standard leakage profiles and are forward-and-backward private. Our experimental evaluation is very encouraging as it shows our schemes consistently outperform the prior state-of-the-art DSE by 1.2-6.6x in search computation time, while also requiring just a single roundtrip to receive the search result. Even compared with prior simpler and very efficient constructions in which all deleted records are returned as part of the result, our OSSE achieves better performance for deletion rates ranging from 45-55%, while the previous state-of-the-art quasi-optimal scheme achieves this for 65-75% deletion rates." />
-
-  
-  <link rel="alternate" hreflang="en-us" href="https://akarbas.github.io/publication/chamani2022dynamic/" />
-
-  
-  
-  
-    <meta name="theme-color" content="#1565c0" />
-  
 
   
   
@@ -93,14 +73,14 @@
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
 
   
   
   
     
     
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" media="print" onload="this.media='all'">
     
 
     
@@ -235,7 +215,11 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.e16b071c3437dd38fe4bc6049c3c2fff.css" />
+  <link rel="stylesheet" href="/css/wowchemy.d4504ebcdfb1cafff84ddd8ce3b930f4.css" />
+
+  
+  
+  
 
   
   
@@ -252,6 +236,8 @@
 
   
   
+
+
 
 
 
@@ -294,72 +280,101 @@
 </script>
 
 
-  
-
-
-  
-
-
-  
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
-  
-  
+
+<meta name="description" content="We focus on the problem of Dynamic Searchable Encryption (DSE) with efficient (optimal/quasi-optimal) search in the presence of deletions. Towards that end, we first propose OSSE, the first DSE scheme that can achieve asymptotically optimal search time, linear to the result size and independent of any prior deletions, improving the previous state of the art by a multiplicative logarithmic factor. We then propose our second scheme LLSE, that achieves a sublogarithmic search overhead (loglogi_w, where i_w is the number or prior insertions for a keyword) compared to the optimal achieved by OSSE. While this is slightly worse than our first scheme, it still outperforms prior works, while also achieving faster deletions and asymptotically smaller server storage. Both schemes have standard leakage profiles and are forward-and-backward private. Our experimental evaluation is very encouraging as it shows our schemes consistently outperform the prior state-of-the-art DSE by 1.2-6.6x in search computation time, while also requiring just a single roundtrip to receive the search result. Even compared with prior simpler and very efficient constructions in which all deleted records are returned as part of the result, our OSSE achieves better performance for deletion rates ranging from 45-55%, while the previous state-of-the-art quasi-optimal scheme achieves this for 65-75% deletion rates." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://akarbas.github.io/publication/chamani2022dynamic/" />
+<link rel="canonical" href="https://akarbas.github.io/publication/chamani2022dynamic/" />
+
+
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_huc524aeba200cee430a950e8082394de6_1912127_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_huc524aeba200cee430a950e8082394de6_1912127_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
 
   
   
 
-  
-  
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@OItsMAK2" />
+  <meta property="twitter:creator" content="@OItsMAK2" />
+<meta property="twitter:image" content="https://akarbas.github.io/media/icon_huc524aeba200cee430a950e8082394de6_1912127_512x512_fill_lanczos_center_3.png" />
+
+
 
   
-  <link rel="icon" type="image/png" href="/media/icon_huc524aeba200cee430a950e8082394de6_1912127_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_huc524aeba200cee430a950e8082394de6_1912127_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://akarbas.github.io/publication/chamani2022dynamic/" />
-
-  
-  
-  
-  
-  
-  
-  
-  
-    
-    
-  
-  
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Amin Karbas" />
+<meta property="og:url" content="https://akarbas.github.io/publication/chamani2022dynamic/" />
+<meta property="og:title" content="Dynamic Searchable Encryption with Optimal Search in the Presence of Deletions | Amin Karbas" />
+<meta property="og:description" content="We focus on the problem of Dynamic Searchable Encryption (DSE) with efficient (optimal/quasi-optimal) search in the presence of deletions. Towards that end, we first propose OSSE, the first DSE scheme that can achieve asymptotically optimal search time, linear to the result size and independent of any prior deletions, improving the previous state of the art by a multiplicative logarithmic factor. We then propose our second scheme LLSE, that achieves a sublogarithmic search overhead (loglogi_w, where i_w is the number or prior insertions for a keyword) compared to the optimal achieved by OSSE. While this is slightly worse than our first scheme, it still outperforms prior works, while also achieving faster deletions and asymptotically smaller server storage. Both schemes have standard leakage profiles and are forward-and-backward private. Our experimental evaluation is very encouraging as it shows our schemes consistently outperform the prior state-of-the-art DSE by 1.2-6.6x in search computation time, while also requiring just a single roundtrip to receive the search result. Even compared with prior simpler and very efficient constructions in which all deleted records are returned as part of the result, our OSSE achieves better performance for deletion rates ranging from 45-55%, while the previous state-of-the-art quasi-optimal scheme achieves this for 65-75% deletion rates." /><meta property="og:image" content="https://akarbas.github.io/media/icon_huc524aeba200cee430a950e8082394de6_1912127_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
+    <meta
+      property="article:published_time"
+      content="2022-01-01T00:00:00&#43;00:00"
+    />
   
-    
-    
   
-  <meta property="twitter:card" content="summary" />
-  
-    <meta property="twitter:site" content="@OItsMAK2" />
-    <meta property="twitter:creator" content="@OItsMAK2" />
-  
-  <meta property="og:site_name" content="Amin Karbas" />
-  <meta property="og:url" content="https://akarbas.github.io/publication/chamani2022dynamic/" />
-  <meta property="og:title" content="Dynamic Searchable Encryption with Optimal Search in the Presence of Deletions | Amin Karbas" />
-  <meta property="og:description" content="We focus on the problem of Dynamic Searchable Encryption (DSE) with efficient (optimal/quasi-optimal) search in the presence of deletions. Towards that end, we first propose OSSE, the first DSE scheme that can achieve asymptotically optimal search time, linear to the result size and independent of any prior deletions, improving the previous state of the art by a multiplicative logarithmic factor. We then propose our second scheme LLSE, that achieves a sublogarithmic search overhead (loglogi_w, where i_w is the number or prior insertions for a keyword) compared to the optimal achieved by OSSE. While this is slightly worse than our first scheme, it still outperforms prior works, while also achieving faster deletions and asymptotically smaller server storage. Both schemes have standard leakage profiles and are forward-and-backward private. Our experimental evaluation is very encouraging as it shows our schemes consistently outperform the prior state-of-the-art DSE by 1.2-6.6x in search computation time, while also requiring just a single roundtrip to receive the search result. Even compared with prior simpler and very efficient constructions in which all deleted records are returned as part of the result, our OSSE achieves better performance for deletion rates ranging from 45-55%, while the previous state-of-the-art quasi-optimal scheme achieves this for 65-75% deletion rates." /><meta property="og:image" content="https://akarbas.github.io/media/icon_huc524aeba200cee430a950e8082394de6_1912127_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://akarbas.github.io/media/icon_huc524aeba200cee430a950e8082394de6_1912127_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
-  
-    
-      <meta
-        property="article:published_time"
-        content="2022-01-01T00:00:00&#43;00:00"
-      />
-    
     <meta property="article:modified_time" content="2022-09-17T19:58:43-07:00">
   
 
-  
+
+
+
 
 
     
@@ -406,6 +421,16 @@
 
   
 
+
+
+
+  
+  
+  
+
+  
+  
+
   
   
   
@@ -439,6 +464,7 @@
 
 
 
+  
   <title>Dynamic Searchable Encryption with Optimal Search in the Presence of Deletions | Amin Karbas</title>
 
   
@@ -470,15 +496,19 @@
   
   
   
-  <script src="/js/wowchemy-init.min.1ee5462d74c6c0de1f8881b384ecc58d.js"></script>
+  <script src="/js/wowchemy-init.min.980187dd755ac492a5ed9f5d2ea310ab.js"></script>
 
   
 
 
 
 
-  <div class="page-header">
-    
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
 
 
 
@@ -491,7 +521,7 @@
 
 
 
-<header class="header--fixed">
+<header>
   <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
     <div class="container-xl">
 
@@ -676,6 +706,7 @@
 
         
         
+        
 
         
         
@@ -702,14 +733,10 @@
 
 
 
-
-
-
-
-
 <div class="pub">
 
   
+
 
 
 
@@ -942,8 +969,12 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://akarbas.github.io/publication/chamani2022dynamic/&amp;text=Dynamic%20Searchable%20Encryption%20with%20Optimal%20Search%20in%20the%20Presence%20of%20Deletions" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fakarbas.github.io%2Fpublication%2Fchamani2022dynamic%2F&amp;text=Dynamic&#43;Searchable&#43;Encryption&#43;with&#43;Optimal&#43;Search&#43;in&#43;the&#43;Presence&#43;of&#43;Deletions" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -955,8 +986,14 @@
       
       
       
+      
+      
+      
+      
+        
+      
       <li>
-        <a href="mailto:?subject=Dynamic%20Searchable%20Encryption%20with%20Optimal%20Search%20in%20the%20Presence%20of%20Deletions&amp;body=https://akarbas.github.io/publication/chamani2022dynamic/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Dynamic%20Searchable%20Encryption%20with%20Optimal%20Search%20in%20the%20Presence%20of%20Deletions&amp;body=https%3A%2F%2Fakarbas.github.io%2Fpublication%2Fchamani2022dynamic%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1016,13 +1053,17 @@
 
 
   
+  
+  
+  
+  
 
-  
 
-  
 
-  
-  
+
+
+
+
 
 
 
@@ -1034,6 +1075,7 @@
     © 2023 Mohammadamin Karbasforushan
   </p>
   
+
 
 
 
@@ -1060,7 +1102,7 @@
   
 
 
-<script src="/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js"></script>
+<script src="/js/vendor-bundle.min.938a3a7554cd9f6602290411f64d2617.js"></script>
 
 
 
@@ -1071,6 +1113,16 @@
   
 
   
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1104,9 +1156,7 @@
 <script id="page-data" type="application/json">{"use_headroom":true}</script>
 
 
-
-  <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
-
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
 
 
 
@@ -1115,7 +1165,9 @@
 
 
 
-<script src="/en/js/wowchemy.min.5f2242f9e416ca8987b1818a173b5651.js"></script>
+
+
+<script src="/en/js/wowchemy.min.de747c0aae643532ba5e4ddf59bf7109.js"></script>
 
 
 
@@ -1151,7 +1203,9 @@
 </div>
 
 
-  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+  <script src="/js/wowchemy-publication.9137013a66774049159934c29c3f0205.js" type="module"></script>
+
+
 
 
 
